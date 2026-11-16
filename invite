@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#5b1e2d">
+<title>Manoj Krishna & Renuka Chowdary | Wedding Invitation</title>
+<style>
+:root{--wine:#5b1e2d;--deep:#2b1420;--gold:#d9b66f;--cream:#fff8ed;--rose:#f5d9d4}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#21121a;color:var(--cream);font-family:Georgia,"Times New Roman",serif}
+button,a{font:inherit}
+.hero{min-height:100svh;position:relative;display:grid;place-items:center;overflow:hidden;padding:28px 18px;background:
+radial-gradient(ellipse at 50% 35%,rgba(255,220,161,.28),transparent 38%),
+linear-gradient(155deg,#281722 0%,#71384a 48%,#24131e 100%)}
+.hero:before,.hero:after{content:"";position:absolute;inset:18px;border:1px solid rgba(224,190,119,.55);pointer-events:none}
+.hero:after{inset:27px;border-color:rgba(224,190,119,.22)}
+.glow{position:absolute;width:420px;height:420px;border-radius:50%;background:rgba(234,190,128,.12);filter:blur(35px)}
+.invite-card{position:relative;z-index:1;width:min(100%,700px);text-align:center;padding:clamp(34px,7vw,68px) 22px;border:1px solid rgba(226,194,130,.7);background:linear-gradient(160deg,rgba(50,23,35,.82),rgba(36,19,29,.88));box-shadow:0 25px 80px #120a0d88}
+.ornament{color:var(--gold);font-size:30px;letter-spacing:9px;margin-bottom:14px}
+.kicker{font:600 11px/1.8 Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#f0d69e}
+h1{font-size:clamp(38px,8vw,68px);line-height:1.06;font-weight:normal;margin:22px 0 12px;color:#fff2d8}
+.amp{display:block;color:var(--gold);font-style:italic;font-size:.7em;margin:9px}
+.subline{font-size:clamp(15px,3vw,19px);line-height:1.8;color:#f3dfcf}
+.rule{width:100px;height:1px;background:var(--gold);margin:25px auto}
+.date{font-size:clamp(20px,4vw,27px);color:#f5dba6;letter-spacing:1px}
+.time{font:600 13px Arial,sans-serif;letter-spacing:3px;margin-top:8px;color:#fff0df}
+.open-btn,.action{border:1px solid var(--gold);background:var(--gold);color:#311723;padding:14px 24px;border-radius:2px;text-decoration:none;display:inline-block;font:700 11px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;cursor:pointer;transition:.2s}
+.open-btn{margin-top:30px}
+.open-btn:hover,.action:hover{transform:translateY(-2px);background:#f0d99e}
+main{background:var(--cream);color:#422532}
+.section{padding:76px 20px;text-align:center}
+.section-inner{max-width:850px;margin:auto}
+.eyebrow{font:700 10px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:#9a6b52}
+.section h2{font-size:clamp(30px,5vw,45px);font-weight:normal;color:var(--wine);margin:13px 0}
+.copy{font-size:18px;line-height:1.9;max-width:650px;margin:18px auto;color:#634a4d}
+.names{font-size:clamp(28px,6vw,45px);color:var(--wine);line-height:1.35}
+.countdown{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:30px auto}
+.count{min-width:82px;padding:18px 12px;border:1px solid #d9c39a;background:#fffdf8}
+.count strong{display:block;font:34px Georgia,serif;color:var(--wine)}
+.count span{font:10px Arial,sans-serif;letter-spacing:2px;color:#8a6a5b}
+.details{background:#f1e4d5}
+.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:30px auto;max-width:700px}
+.detail{padding:26px 18px;border:1px solid #d7bd91;background:#fffaf3}
+.detail .symbol{font-size:25px;color:#a47a42}
+.detail h3{font:700 11px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;color:#936d49}
+.detail p{font-size:19px;line-height:1.6;margin:10px 0;color:#4b2934}
+.actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}
+.action.secondary{background:transparent;color:var(--wine);border-color:#a47a42}
+.note{font:12px/1.7 Arial,sans-serif;color:#8a6f65;margin-top:18px}
+footer{padding:42px 18px;text-align:center;background:#2b1420;color:#f0d9b4}
+footer .heart{color:#d9a6a0;font-size:22px}
+footer p{font-size:14px;line-height:1.8}
+@media(max-width:560px){.detail-grid{grid-template-columns:1fr}.section{padding:60px 18px}.invite-card{padding:38px 18px}.count{min-width:70px}.count strong{font-size:29px}}
+@media(prefers-reduced-motion:no-preference){.invite-card{animation:rise 1s ease both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}}
+</style>
+</head>
+<body>
+<header class="hero" id="top">
+  <div class="glow"></div>
+  <div class="invite-card">
+    <div class="ornament">❧ ✦ ❧</div>
+    <div class="kicker">With the blessings of our families</div>
+    <p class="subline">Together with our families,</p>
+    <h1>Manoj Krishna <span class="amp">&</span> Renuka Chowdary</h1>
+    <div class="rule"></div>
+    <p class="subline">joyfully invite you to celebrate the beginning<br>of our beautiful journey together.</p>
+    <div class="rule"></div>
+    <div class="date">Friday · 4 December 2026</div>
+    <div class="time">7:30 PM ONWARDS</div>
+    <button class="open-btn" onclick="document.getElementById('invitation').scrollIntoView({behavior:'smooth'})">View Invitation ↓</button>
+  </div>
+</header>
+
+<main>
+<section class="section" id="invitation">
+  <div class="section-inner">
+    <div class="eyebrow">A celebration of love</div>
+    <h2>Two hearts. One beautiful beginning.</h2>
+    <p class="copy">With immense joy and gratitude, we invite you to join us as we tie the knot and begin a new chapter together. Your presence and blessings will make our celebration truly special.</p>
+    <div class="names">Manoj Krishna <span style="color:#b58a50">&amp;</span> Renuka Chowdary</div>
+    <div class="countdown" aria-label="Countdown to the wedding">
+      <div class="count"><strong id="days">--</strong><span>DAYS</span></div>
+      <div class="count"><strong id="hours">--</strong><span>HOURS</span></div>
+      <div class="count"><strong id="minutes">--</strong><span>MINUTES</span></div>
+      <div class="count"><strong id="seconds">--</strong><span>SECONDS</span></div>
+    </div>
+    <p class="note" id="countdown-note">Counting down to our special day</p>
+  </div>
+</section>
+
+<section class="section details" id="details">
+  <div class="section-inner">
+    <div class="eyebrow">Please join us</div>
+    <h2>Wedding Celebration</h2>
+    <div class="detail-grid">
+      <div class="detail">
+        <div class="symbol">✧</div>
+        <h3>Date</h3>
+        <p>Friday<br>4 December 2026</p>
+      </div>
+      <div class="detail">
+        <div class="symbol">◷</div>
+        <h3>Time</h3>
+        <p>7:30 PM<br>Evening</p>
+      </div>
+      <div class="detail" style="grid-column:1/-1">
+        <div class="symbol">⌖</div>
+        <h3>Venue</h3>
+        <p>Nellore, Andhra Pradesh</p>
+        <span class="note">Venue name and full address can be added when confirmed.</span>
+      </div>
+    </div>
+    <div class="actions">
+      <a class="action" href="https://www.google.com/maps/search/?api=1&query=Nellore%2C%20Andhra%20Pradesh" target="_blank" rel="noopener">Get Directions</a>
+      <button class="action secondary" onclick="downloadCalendar()">Add to Calendar</button>
+      <button class="action secondary" onclick="shareInvite()">Share Invitation</button>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="ornament" style="color:#b58a50">❧</div>
+    <h2>Your presence is our present</h2>
+    <p class="copy">We look forward to celebrating this special day with you. Please join us with your family and bless the couple.</p>
+    <div class="names" style="font-size:clamp(25px,5vw,36px)">With love,<br>Manoj Krishna &amp; Renuka Chowdary</div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="heart">♥</div>
+  <p>Made with love for our special day<br><span style="color:#d9b66f">4 · 12 · 2026</span></p>
+</footer>
+
+<script>
+const weddingDate = new Date('2026-12-04T19:30:00+05:30').getTime();
+function updateCountdown(){
+  const diff = weddingDate - Date.now();
+  if(diff <= 0){
+    document.getElementById('days').textContent='0';
+    document.getElementById('hours').textContent='0';
+    document.getElementById('minutes').textContent='0';
+    document.getElementById('seconds').textContent='0';
+    document.getElementById('countdown-note').textContent='The celebration is here — let the festivities begin!';
+    return;
+  }
+  const d=Math.floor(diff/86400000), h=Math.floor(diff%86400000/3600000),
+        m=Math.floor(diff%3600000/60000), s=Math.floor(diff%60000/1000);
+  document.getElementById('days').textContent=d;
+  document.getElementById('hours').textContent=h;
+  document.getElementById('minutes').textContent=m;
+  document.getElementById('seconds').textContent=s;
+}
+updateCountdown(); setInterval(updateCountdown,1000);
+
+function shareInvite(){
+  const message='You are warmly invited to the wedding of Manoj Krishna & Renuka Chowdary on Friday, 4 December 2026 at 7:30 PM in Nellore. We would love to celebrate with you!';
+  const url='https://wa.me/?text='+encodeURIComponent(message);
+  window.open(url,'_blank','noopener');
+}
+function downloadCalendar(){
+  const start='20261204T140000Z'; // 7:30 PM IST
+  const end='20261204T160000Z';   // 9:30 PM IST (estimated event duration)
+  const ics=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Wedding Invitation//Manoj and Renuka//EN','BEGIN:VEVENT',
+  'UID:manoj-renuka-wedding-20261204@example.com','DTSTAMP:20261116T000000Z','DTSTART:'+start,'DTEND:'+end,
+  'SUMMARY:Wedding of Manoj Krishna and Renuka Chowdary','LOCATION:Nellore, Andhra Pradesh, India',
+  'DESCRIPTION:Wedding celebration of Manoj Krishna and Renuka Chowdary.','END:VEVENT','END:VCALENDAR'].join('\r\n');
+  const blob=new Blob([ics],{type:'text/calendar;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='Manoj-Renuka-Wedding.ics';a.click();URL.revokeObjectURL(a.href);
+}
+</script>
+</body>
+</html>
